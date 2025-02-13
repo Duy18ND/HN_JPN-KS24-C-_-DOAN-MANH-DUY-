@@ -1,0 +1,25 @@
+.backgound{
+    background-color: aliceblue;
+}
+
+tr input{
+   width: 100%;
+   text-align: center;
+}
+span{
+    color: gray;
+    font-size: 12px;
+}
+
+select{
+    width: 100%;
+}
+
+.Continue button{
+    color: white;
+    width: 100%;
+background-color: rgb(10, 78, 167);
+border-radius: 5px;
+padding: 10px;
+font-size: 20px;
+}

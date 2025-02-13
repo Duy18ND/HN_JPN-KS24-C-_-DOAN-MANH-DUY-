@@ -1,0 +1,29 @@
+*{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.backgound tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+    border-left: 15px solid #f2f2f2;
+}
+
+th{
+    background-color: #027bff;
+    color: white;
+}
+
+.view{
+background-color: #28a745;
+color: white;
+border: none;
+}
+
+ .update{
+background-color: #ffc109;
+border: none;
+}
+.delete{
+background-color: #dc3545;
+border: none;
+color: white;
+}
