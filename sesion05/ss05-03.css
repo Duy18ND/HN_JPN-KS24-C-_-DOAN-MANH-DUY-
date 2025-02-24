@@ -1,8 +1,0 @@
-.User tbody tr:nth-child(even) {
-    background-color: bisque;
-}
-
-#id {
-    background-color: rgb(40, 134, 211);
-    color: white;
-}
