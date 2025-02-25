@@ -17,9 +17,11 @@ nav p {
     font-size: 20px;
     font-weight: bold;
 }
+
 nav .menu-phone {
     display: none;
 }
+
 nav div {
     display: flex;
     gap: 26px;
@@ -51,15 +53,18 @@ header {
 .header-container-1 p:nth-of-type(2) {
     font-size: 80px;
     font-weight: bold;
+    width: 80%;
 }
 
 .header-container-1 p:nth-of-type(3) {
     padding-top: 67px;
     font-size: 17px;
 }
-.header-container-1 p:nth-of-type(3) span{
+
+.header-container-1 p:nth-of-type(3) span {
     display: none;
 }
+
 .header-container-2 {
     width: 40%;
 }
@@ -123,7 +128,7 @@ main .image p:nth-of-type(1) {
 
 footer {
     display: flex;
-    margin: 90px 170px ;
+    margin: 90px 170px;
     border-top: 2px solid #f3f3f3;
     gap: 190px;
 }
@@ -131,23 +136,27 @@ footer {
 
 footer div:nth-of-type(1) {
     margin-top: 70px;
-    width: 50%;
+    width: 100%;
 }
+
 footer div li:nth-of-type(1) {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 40px;
     list-style-type: none;
 }
+
 footer div li:nth-of-type(2) {
     font-size: 17px;
     list-style-type: none;
     line-height: 25px;
 }
+
 footer div li:nth-of-type(3) {
     list-style-type: none;
 }
-footer i {
+
+footer li i {
     margin-top: 60px;
     font-size: 27px;
 }
@@ -155,19 +164,24 @@ footer i {
 footer i:nth-of-type(2) {
     margin-left: 13px;
 }
+
 footer i:nth-of-type(3) {
     margin-left: 13px;
 }
+
 footer i:nth-of-type(4) {
     margin-left: 13px;
 }
+
 footer i:nth-of-type(5) {
     margin-left: 13px;
 }
+
 footer div:nth-of-type(2) {
     margin-top: 70px;
-    width: 50%;
+    width: 100%;
 }
+
 footer input {
     width: 100%;
     padding: 22px 18px;
@@ -175,6 +189,7 @@ footer input {
     border: none;
     background-color: #F3F3F3;
 }
+
 footer textarea {
     width: 100%;
     padding: 5px 70px 100px 0px;
@@ -182,6 +197,7 @@ footer textarea {
     background-color: #F3F3F3;
     border: none;
 }
+
 footer button {
     margin-top: 40px;
     background-color: #2D2D2D;
@@ -191,59 +207,148 @@ footer button {
     margin: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     nav {
         flex-wrap: wrap;
+        margin-bottom: 60px;
     }
+
     nav a {
         display: none;
     }
+
     nav .menu-phone {
         width: 25px;
         height: 23px;
         display: block;
         border: none;
     }
+
     header {
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
         flex-wrap: wrap;
     }
+
     header .header-container-1 {
-        width: 110%;
-    }
-    header .header-container-2 {   
+        margin: 0px;
+        padding: 0px;
         width: 100%;
     }
-    .header-container-1 p:nth-of-type(3) span{
-        display: block;
+
+    header .header-container-1 p {
+        width: 100%;
+        font-size: 20px;
     }
+
+    header .header-container-1 p:nth-of-type(2) {
+        width: 100%;
+        font-size: 48px;
+
+    }
+
+    .header-container-1 p:nth-of-type(3) {
+        width: 100%;
+        display: block;
+        line-height: 25px;
+    }
+
+    .header-container-1 p:nth-of-type(3) span {
+        width: 100%;
+        display: block;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+
+    header .header-container-2 {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header .header-container-2 img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
     section {
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
         flex-wrap: wrap;
     }
-    section .content-section img {
-        margin-left: 88px;
+
+    section .content-section {
+        margin-top: 70px;
+        width: 100%;
     }
-    section .content-section p{
-        width: 280px;
+
+    section .content-section img {
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    section .content-section p:nth-of-type(2) {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        line-height: 30px;
+    }
+
+    section .content-section p:nth-of-type(1) {
+        font-size: 27px;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        line-height: 70px;
     }
 
     main .image {
         flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
     }
+
+    main .title-main {
+        margin-top: 200px;
+        font-size: 32px;
+    }
+
+    main .image img {
+        padding: 20px;
+    }
+
     main .image p {
-        margin-bottom: 60px;
+        padding-left: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
+
     footer {
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
         flex-wrap: wrap;
     }
+
     footer li {
-        width: 311px;
+        padding: 20px;
     }
     footer p {
-        width: 311px;
-        margin-left: -4px;
+        padding: 20px;
     }
     footer button {
-        margin-top: 20px;
-        margin-left: -4px;
+        padding: 20px;
     }
 }
